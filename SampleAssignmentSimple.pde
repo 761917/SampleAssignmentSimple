@@ -1,19 +1,4 @@
-/*
- * Name: Jane Student
- * ID# : 123456
- * Lab : Fish Tank
- *
- * Original Fish Tank Lab created by a collaboration between
- * Bryn Mawr College and SMU through an NSF TUES I grant
- * more information may be found at:
- * www.cs.brynmawr.edu/visual
- *
- * Licensed under Creative Commons (CC BY-SA 3.0)
- * You are free to modify, share, and redistribute this code
- * but you may not charge for it. Please leave the authorship
- * and license information intact.
- *
- */
+
 PImage mhs;
 ArrayList<AnimatedObject> objs = new ArrayList<AnimatedObject>();
 
@@ -24,7 +9,8 @@ int squidCount=7;
 void setup() {
   mhs = loadImage("martin2.jpg");
   //size(mhs.width,mhs.height);
-  fullScreen();
+  //fullScreen();
+  size(800,600);
   smooth();
   ArrayList<SchnoorObj> js=new ArrayList<SchnoorObj>();
   ArrayList<CheezObj> cs=new ArrayList<CheezObj>();
